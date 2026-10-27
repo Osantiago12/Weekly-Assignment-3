@@ -1,0 +1,22 @@
+#result{margin-left: 46.7%;}
+
+
+.buttons{
+    display: flex;
+    gap: 25%;
+    background: color rgb(86, 85, 85);
+    
+}
+
+#rock{
+   margin-left: 20%; 
+}
+
+#result{
+    height: 10%;
+}
+
+.rockclass{
+    margin-left: 20%;
+    
+}
