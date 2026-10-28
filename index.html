@@ -1,23 +1,30 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The game</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <h1 class="center2">Rock, Paper, or Scissors.</h1>
+    <h3 class="center2">choose wisely</h3>
+    <br>
     <div id="result">your result</div>
+    <p id="center">The score is: You - <span id="player">0</span>, Computer - <span id="AI">0</span>, Tie - <span id="tie">0</span></p>
     <Div class="buttons">
 
         <div class="rockclass">
-        <button id="rock">rock</button>
+            <button onclick="rock()">Rock</button>
         </div>
 
-        <button id="paper">paper</button>
 
-
-        <button id="scissor">scissor</button>
+        <button onclick="paper()">Paper</button>
+        <button onclick="scissors()">Scissors</button>
 
     </Div>
+    <script src="script.js"></script>
 </body>
+
 </html>
